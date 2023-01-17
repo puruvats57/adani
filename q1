@@ -2,9 +2,9 @@
 #include<cstdlib>
 vector<vector<int>>fun(int rows,int col){
 vector<vector<int>>ans;
-for(int i=0;i<r;i++){
-for(int j=0;j<c;j++){
-ans[i][j]=(rand(j))%101;
+for(int i=0;i<rows;i++){
+for(int j=0;j<col;j++){
+ans[i][j]=(rand())%101;
 }
 }
 return ans;
