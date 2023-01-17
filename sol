@@ -9,10 +9,12 @@ ans[i][j]=(rand())%101;
 }
 return ans;
 }
+
+//sort function
 vector<vector<int>>sorti(vector<vector<int>>list,int c){
 vector<pairs<int,int>>arr;
 for(int i=0;i<list.size();i++){
-arr.push_back(list[i][j],i);
+arr.push_back(list[i][c],i);
 }
 sort(arr.begin(),arr.end());
 vector<vector<int>>ans;
