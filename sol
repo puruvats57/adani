@@ -24,6 +24,8 @@ ans.push_back(list[arr[i].second]);
 return ans;
 
 }
+
+//main function
 int main(){
 int rows,col,n;
 vector<vector<int>>out;
